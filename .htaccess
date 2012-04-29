@@ -1,0 +1,7 @@
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+RewriteEngine On
+RewriteRule                ^.*(app.*)$        $1 [L]
+RewriteRule                ^.*(lib.*)$        $1 [L]
+RewriteRule                ^.*(www.*)$        $1 [L]
+RewriteRule                .*        index.php
