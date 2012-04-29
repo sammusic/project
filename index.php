@@ -29,3 +29,4 @@ $data = array(
 //pa(Connect::query("SELECT * FROM content WHERE id=2",'as'));
 //pa(Connect::query("SELECT * FROM content",'o'));
 pa(Connect::query("SELECT * FROM content",'all'));
+
